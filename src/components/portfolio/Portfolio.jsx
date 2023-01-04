@@ -11,45 +11,45 @@ const data = [
   {
     id: 1,
     imaage: IMGj,
-    title: "Cryptocurrency Dashboard & Financial Visualization",
-    Github: "https://github.com",
-    demo: "https://github.com"
+    title: "Metaverse Of Madness",
+    Github: "https://github.com/IsraelBosun/meta",
+    demo: "https://meta-xtqq.vercel.app/"
   },
   {
     id: 2,
     imaage: IMG2,
-    title: "Charts templates & infographic in figma",
-    Github: "https://github.com",
-    demo: "https://github.com"
+    title: "Omicron Gadgets E-commerce website",
+    Github: "https://github.com/IsraelBosun/omicron-gadgets",
+    demo: "https://israelbosun.github.io/omicron-gadgets/"
   },
   {
     id: 3,
     imaage: IMG3,
-    title: "Figma dashboard UI kit for data design web apps",
-    Github: "https://github.com",
-    demo: "https://github.com"
+    title: "Portfolio Website for myself",
+    Github: "https://github.com/IsraelBosun/testing",
+    demo: "https://testing-eight-lyart.vercel.app/"
   },
   {
     id: 4,
     imaage: IMG4,
-    title: "Maintaining tasks and tracking progress",
-    Github: "https://github.com",
-    demo: "https://github.com"
+    title: "GPT-3 OpenAI Landing Page (Ongoing)",
+    Github: "https://github.com/IsraelBosun/gpt-3-israel",
+    demo: "https://gpt-3-israel.vercel.app/"
   },
   {
     id: 5,
     imaage: IMG5,
-    title: "Figma dashboard UI kit for data design web apps",
-    Github: "https://github.com",
-    demo: "https://github.com"
+    title: "School Website for Royal Diadem School (Ongoing)",
+    Github: "https://github.com/IsraelBosun/Royal-Diadem-School",
+    demo: "https://israelbosun.github.io/Royal-Diadem-School/"
   },
-  {
-    id: 6,
-    imaage: IMG6,
-    title: "Cryptocurrency Dashboard & Financial Visualization",
-    Github: "https://github.com",
-    demo: "https://github.com"
-  }
+  // {
+  //   id: 6,
+  //   imaage: IMG6,
+  //   title: "Cryptocurrency Dashboard & Financial Visualization",
+  //   Github: "https://github.com/IsraelBosun/Royal-Diadem-School",
+  //   demo: "https://israelbosun.github.io/Royal-Diadem-School/"
+  // }
 ]
 
 const Portfolio = () => {

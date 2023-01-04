@@ -24,24 +24,24 @@ const About = () => {
           <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working epx</small>
+              <small>6 Months Working Experience</small>
           </article>
 
           <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Client</h5>
-              <small>300+ Worldwide</small>
+              <small>3 Clients</small>
           </article>
 
           <article className='about__card'>
               <AiFillFolderOpen className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed Projects</small>
+              <small>5+ Completed Projects</small>
           </article>
         </div>
 
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga nemo officia ratione sunt nesciunt, suscipit obcaecati sint quo. Repudiandae reiciendis deleniti aut suscipit tempore. Excepturi neque nulla explicabo maiores qui?
+          I  started as a web developer 6 months ago, and i've made a number of websites in the process. Do check out some of my works below. I have a good eye for design, and I ensure whatever website I make is functional and responsive. Do know more about me below.
         </p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>

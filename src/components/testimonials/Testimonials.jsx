@@ -22,23 +22,23 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: "Mark Walberg",
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolorem fugit amet autem culpa! Consectetur molestias iure porro laborum perferendis mollitia blanditiis incidunt dignissimos natus eveniet modi, a unde facilis."
+    name: "Folasade Elizabeth",
+    review: "No real testimonials for now, i'm just using these as a place-holder pending the time I start getting real testimonials from clients. But already I have gotten a lot of commendations from people who are impressed by my projects and what i've achieved in 6 months as a frontend developer."
   },
   {
     avatar: AVTR2,
-    name: "Jessica Adetoun",
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolorem fugit amet autem culpa! Consectetur molestias iure porro laborum perferendis mollitia blanditiis incidunt dignissimos natus eveniet modi, a unde facilis."
+    name: "Ogenerukewe Asasako",
+    review: "No real testimonials for now, i'm just using these as a place-holder pending the time I start getting real testimonials from clients. But already I have gotten a lot of commendations from people who are impressed by my projects and what i've achieved in 6 months as a frontend developer."
   },
   {
     avatar: AVTR3,
-    name: "Roger Stone",
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolorem fugit amet autem culpa! Consectetur molestias iure porro laborum perferendis mollitia blanditiis incidunt dignissimos natus eveniet modi, a unde facilis."
+    name: "Pelumi Ogunsakin",
+    review: "No real testimonials for now, i'm just using these as a place-holder pending the time I start getting real testimonials from clients. But already I have gotten a lot of commendations from people who are impressed by my projects and what i've achieved in 6 months as a frontend developer."
   },
   {
     avatar: AVTR4,
-    name: "Adeyemi Adekunle",
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolorem fugit amet autem culpa! Consectetur molestias iure porro laborum perferendis mollitia blanditiis incidunt dignissimos natus eveniet modi, a unde facilis."
+    name: "Misturah Ololade",
+    review: "No real testimonials for now, i'm just using these as a place-holder pending the time I start getting real testimonials from clients. But already I have gotten a lot of commendations from people who are impressed by my projects and what i've achieved in 6 months as a frontend developer"
   }
 ]
 
