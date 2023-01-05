@@ -27,7 +27,7 @@ const Contact = () => {
 
 
   return (
-    <div className='section' id='contact' >
+    <section className='section' id='contact' >
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
@@ -36,7 +36,7 @@ const Contact = () => {
           <article className ="contact__option">
             <HiOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
-            <h5>israelbosun@gmail.com</h5>
+            <h5 className = "small__mail">israelbosun@gmail.com</h5>
             <a href="mailto:israelbosun@gmail.com" target="_blank">Send a message</a>
           </article>
 
@@ -70,7 +70,7 @@ const Contact = () => {
         </form>
         
       </div>
-    </div>
+    </section>
   )
 }
 
