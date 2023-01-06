@@ -166,6 +166,7 @@ input, textarea{
     .container.contact__container{
         flex-direction: column;
         justify-content: center;
+        width:80%;
        
     }
     .contact__options{
