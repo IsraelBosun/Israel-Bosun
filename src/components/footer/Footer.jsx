@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Made With React <FaReact className ="reaction"/> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; By IsraelBosun</small>
+        <small>&copy; Made With React <FaReact className ="reaction"/> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By IsraelBosun</small>
       </div>
     </div>
   )

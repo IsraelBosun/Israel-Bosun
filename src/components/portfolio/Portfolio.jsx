@@ -5,7 +5,7 @@ import IMG2 from "../../assets/portfolio2.jpg"
 import IMG3 from "../../assets/portfolio3.jpg"
 import IMG4 from "../../assets/portfolio4.jpg"
 import IMG5 from "../../assets/portfolio5.png"
-import IMG6 from "../../assets/portfolio6.jpg"
+import IMG6 from "../../assets/portfolio6.png"
 
 const data = [
   {
@@ -43,13 +43,13 @@ const data = [
     Github: "https://github.com/IsraelBosun/Royal-Diadem-School",
     demo: "https://israelbosun.github.io/Royal-Diadem-School/"
   },
-  // {
-  //   id: 6,
-  //   imaage: IMG6,
-  //   title: "Cryptocurrency Dashboard & Financial Visualization",
-  //   Github: "https://github.com/IsraelBosun/Royal-Diadem-School",
-  //   demo: "https://israelbosun.github.io/Royal-Diadem-School/"
-  // }
+  {
+    id: 6,
+    imaage: IMG6,
+    title: "I made a chatGPT clone using OpenAI's API, I called it AfroGPT",
+    Github: "https://github.com/IsraelBosun/Afro-gpt",
+    demo: "https://afro-gpt.vercel.app/"
+  }
 ]
 
 const Portfolio = () => {
@@ -81,3 +81,4 @@ const Portfolio = () => {
 }
 
 export default Portfolio
+
