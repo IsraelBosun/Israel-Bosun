@@ -19,19 +19,19 @@ const Services = () => {
           <ul className='service__list'>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>Knowledgable in Adobe Illustrator and Photoshop</p>
+            <p>Skilled in Adobe Illustrator and Photoshop</p>
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>I can design banners, logos and other graphics for web projects</p>
+            <p>Proficient in designing banners, logos, and web graphics</p>
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>I can also make use of Figma to create prototypes for projects</p>
+            <p>Experienced in creating project prototypes with Figma</p>
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>Good knowledge of color and color balance</p>
+            <p>Knowledgeable in color balance and selection, and apply this expertise in my UI/UX designs.</p>
           </li>
          
         </ul>  
@@ -48,23 +48,23 @@ const Services = () => {
           <ul className='service__list'>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>Ability to replicate simple to complex Figma Designs</p>
+            <p>Proficient in replicating simple to complex Figma designs</p>
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>Ability to create responsive and functional websites</p>
+            <p>Skilled in creating functional and responsive websites</p>
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>Speed and accuracy when it comes to delivering on a project</p>
+            <p>Demonstrates speed and accuracy in project delivery</p>
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>Ability to learn new technologies and apply them to projects</p>
+            <p>Aptitude for learning new technologies and incorporating them into projects</p>
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>keen attention to details.</p>
+            <p>Possesses a keen eye for detail.</p>
           </li>
         </ul>
         </article>
@@ -74,25 +74,25 @@ const Services = () => {
 
         <article className='service'>
           <div className="service__head">
-            <h3>Relevant Abilities</h3>
+            <h3>Soft Skills</h3>
           </div>
 
           <ul className='service__list'>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>Ability to work under pressure.</p>
+            <p>Strong communication skills, both written and verbal</p>
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>Require little supervision once I understand the basics</p>
+            <p>Ability to collaborate effectively in a team environment</p>
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>I find easier and efficient ways of solving problems</p>
+            <p>Flexibility and adaptability to evolving project requirements and timelines</p>
           </li>
           <li>
             <BsCheck className='sercice__list-icon' />
-            <p>Ability to work with others on a project</p>
+            <p>Strong problem-solving abilities to tackle complex issues and provide innovative solutions.</p>
           </li>
           
         </ul>

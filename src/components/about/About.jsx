@@ -24,7 +24,7 @@ const About = () => {
           <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>6 Months Working Experience</small>
+              <small>8 Months Working Experience</small>
           </article>
 
           <article className='about__card'>
@@ -41,7 +41,7 @@ const About = () => {
         </div>
 
         <p>
-          I  started as a web developer 6 months ago, and i've made a number of websites in the process. Do check out some of my works below. I have a good eye for design, and I ensure whatever website I make is functional and responsive. Do know more about me below.
+        As a web developer with 8 months of experience, I have successfully designed and developed several functional and responsive websites with an emphasis on aesthetics ensuring a positive user experience. Do take a look at my portfolio below to see the examples of my work. I am committed to creating exceptional web experiences and am confident in my ability to deliver high-quality results to my clients.
         </p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
@@ -51,3 +51,4 @@ const About = () => {
 }
 
 export default About
+

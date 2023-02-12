@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion"
 import "./portfolio.css"
 import IMGj from "../../assets/portfolio1.jpg"
 import IMG2 from "../../assets/portfolio2.jpg"
@@ -6,6 +7,7 @@ import IMG3 from "../../assets/portfolio3.jpg"
 import IMG4 from "../../assets/portfolio4.jpg"
 import IMG5 from "../../assets/portfolio5.png"
 import IMG6 from "../../assets/portfolio6.png"
+import IMG7 from "../../assets/portfolio7.png"
 
 const data = [
   {
@@ -32,29 +34,41 @@ const data = [
   {
     id: 4,
     imaage: IMG4,
-    title: "GPT-3 OpenAI Landing Page (Ongoing)",
+    title: "GPT-3 OpenAI Landing Page",
     Github: "https://github.com/IsraelBosun/gpt-3-israel",
     demo: "https://gpt-3-israel.vercel.app/"
   },
-  {
-    id: 5,
-    imaage: IMG5,
-    title: "School Website for Royal Diadem School (Ongoing)",
-    Github: "https://github.com/IsraelBosun/Royal-Diadem-School",
-    demo: "https://israelbosun.github.io/Royal-Diadem-School/"
-  },
+  // {
+  //   id: 5,
+  //   imaage: IMG5,
+  //   title: "School Website for Royal Diadem School (Ongoing)",
+  //   Github: "https://github.com/IsraelBosun/Royal-Diadem-School",
+  //   demo: "https://israelbosun.github.io/Royal-Diadem-School/"
+  // },
   {
     id: 6,
     imaage: IMG6,
-    title: "I made a chatGPT clone using OpenAI's API, I called it AfroGPT",
+    title: "I made a chatGPT clone using OpenAI's API, I called it AfroGPT (this is no longer active as I have used up my free OpenAI credit )",
     Github: "https://github.com/IsraelBosun/Afro-gpt",
     demo: "https://afro-gpt.vercel.app/"
+  },
+  {
+    id: 7,
+    imaage: IMG7,
+    title: "This is a website for a gym, do check it out",
+    Github: "https://github.com/IsraelBosun/gyming",
+    demo: "https://gyming.vercel.app/"
   }
 ]
 
 const Portfolio = () => {
   return (
-    <div className='section' id='portfolio'>
+    <motion.div 
+    initial = {{x: -1000}}
+    animate = {{x: 0.5}}
+    transition = {{duration: 2}}
+    className='section' 
+    id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
@@ -76,7 +90,7 @@ const Portfolio = () => {
         })
       }
       </div>
-    </div>
+    </motion.div>
   )
 }
 

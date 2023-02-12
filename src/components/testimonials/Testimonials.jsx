@@ -23,22 +23,21 @@ const data = [
   {
     avatar: AVTR1,
     name: "Folasade Elizabeth",
-    review: "No real testimonials for now, i'm just using these as a place-holder pending the time I start getting real testimonials from clients. But already I have gotten a lot of commendations from people who are impressed by my projects and what i've achieved in 6 months as a frontend developer."
+    review: "While I do not yet have any formal testimonials from clients, I have received numerous commendations from individuals impressed by the quality of my work as a frontend developer in less than a year. I look forward to adding official testimonials to my portfolio as I continue to hone my craft and deliver exceptional results."
   },
   {
     avatar: AVTR2,
-    name: "Ogenerukewe Asasako",
-    review: "No real testimonials for now, i'm just using these as a place-holder pending the time I start getting real testimonials from clients. But already I have gotten a lot of commendations from people who are impressed by my projects and what i've achieved in 6 months as a frontend developer."
+    name: "While I do not yet have any formal testimonials from clients, I have received numerous commendations from individuals impressed by the quality of my work as a frontend developer in less than a year. I look forward to adding official testimonials to my portfolio as I continue to hone my craft and deliver exceptional results."
   },
   {
     avatar: AVTR3,
     name: "Pelumi Ogunsakin",
-    review: "No real testimonials for now, i'm just using these as a place-holder pending the time I start getting real testimonials from clients. But already I have gotten a lot of commendations from people who are impressed by my projects and what i've achieved in 6 months as a frontend developer."
+    review: "While I do not yet have any formal testimonials from clients, I have received numerous commendations from individuals impressed by the quality of my work as a frontend developer in less than a year. I look forward to adding official testimonials to my portfolio as I continue to hone my craft and deliver exceptional results."
   },
   {
     avatar: AVTR4,
     name: "Misturah Ololade",
-    review: "No real testimonials for now, i'm just using these as a place-holder pending the time I start getting real testimonials from clients. But already I have gotten a lot of commendations from people who are impressed by my projects and what i've achieved in 6 months as a frontend developer"
+    review: "While I do not yet have any formal testimonials from clients, I have received numerous commendations from individuals impressed by the quality of my work as a frontend developer in less than a year. I look forward to adding official testimonials to my portfolio as I continue to hone my craft and deliver exceptional results."
   }
 ]
 
