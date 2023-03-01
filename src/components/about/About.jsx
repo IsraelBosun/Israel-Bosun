@@ -41,7 +41,7 @@ const About = () => {
         </div>
 
         <p>
-        As a web developer with 8 months of experience, I have successfully designed and developed several functional and responsive websites with an emphasis on aesthetics ensuring a positive user experience. Do take a look at my portfolio below to see the examples of my work. I am committed to creating exceptional web experiences and am confident in my ability to deliver high-quality results to my clients.
+        I am a web developer with 7 months of experience creating functional and responsive websites with a focus on aesthetics and user experience. Check out my portfolio for examples of my work. I am committed to delivering high-quality results to my clients.
         </p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>

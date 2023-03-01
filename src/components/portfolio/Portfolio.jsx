@@ -5,9 +5,10 @@ import IMGj from "../../assets/portfolio1.jpg"
 import IMG2 from "../../assets/portfolio2.jpg"
 import IMG3 from "../../assets/portfolio3.jpg"
 import IMG4 from "../../assets/portfolio4.jpg"
-import IMG5 from "../../assets/portfolio5.png"
+import IMG5 from "../../assets/portfolio5.PNG"
 import IMG6 from "../../assets/portfolio6.png"
 import IMG7 from "../../assets/portfolio7.png"
+import { staggerContainer } from "../data.js"
 
 const data = [
   {
@@ -38,13 +39,13 @@ const data = [
     Github: "https://github.com/IsraelBosun/gpt-3-israel",
     demo: "https://gpt-3-israel.vercel.app/"
   },
-  // {
-  //   id: 5,
-  //   imaage: IMG5,
-  //   title: "School Website for Royal Diadem School (Ongoing)",
-  //   Github: "https://github.com/IsraelBosun/Royal-Diadem-School",
-  //   demo: "https://israelbosun.github.io/Royal-Diadem-School/"
-  // },
+  {
+    id: 5,
+    imaage: IMG5,
+    title: "Made an online Economics class website for a friend (Ongoing)",
+    Github: "https://github.com/IsraelBosun/school-website",
+    demo: "https://school-website-sigma.vercel.app/"
+  },
   {
     id: 6,
     imaage: IMG6,
@@ -62,11 +63,13 @@ const data = [
 ]
 
 const Portfolio = () => {
+
   return (
     <motion.div 
-    initial = {{x: -1000}}
-    animate = {{x: 0.5}}
-    transition = {{duration: 2}}
+    variants = {staggerContainer}
+    initial = "hidden"
+    whileInView= "show"
+    viewport={{once: "false", amount: 1}}
     className='section' 
     id='portfolio'>
       <h5>My Recent Work</h5>

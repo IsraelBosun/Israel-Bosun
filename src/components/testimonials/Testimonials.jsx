@@ -27,7 +27,8 @@ const data = [
   },
   {
     avatar: AVTR2,
-    name: "While I do not yet have any formal testimonials from clients, I have received numerous commendations from individuals impressed by the quality of my work as a frontend developer in less than a year. I look forward to adding official testimonials to my portfolio as I continue to hone my craft and deliver exceptional results."
+    name: "Ugochukwu Daniel",
+    review: "While I do not yet have any formal testimonials from clients, I have received numerous commendations from individuals impressed by the quality of my work as a frontend developer in less than a year. I look forward to adding official testimonials to my portfolio as I continue to hone my craft and deliver exceptional results."
   },
   {
     avatar: AVTR3,
