@@ -22,23 +22,23 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: "Folasade Elizabeth",
-    review: "While I do not yet have any formal testimonials from clients, I have received numerous commendations from individuals impressed by the quality of my work as a frontend developer in less than a year. I look forward to adding official testimonials to my portfolio as I continue to hone my craft and deliver exceptional results."
+    name: "Oluwole Godwin",
+    review: "Working with Israel has been an exceptional experience. He developed a website for my online economics tutorial class that exceeded my expectations. The website is not only aesthetically pleasing but also user-friendly. Their attention to detail and dedication to ensuring the website met my requirements was impressive. I highly recommend him to anyone looking for a professional and reliable web developer."
   },
   {
     avatar: AVTR2,
-    name: "Ugochukwu Daniel",
-    review: "While I do not yet have any formal testimonials from clients, I have received numerous commendations from individuals impressed by the quality of my work as a frontend developer in less than a year. I look forward to adding official testimonials to my portfolio as I continue to hone my craft and deliver exceptional results."
+    name: "Oluwole Godwin",
+    review: "WWorking with Israel has been an exceptional experience. He developed a website for my online economics tutorial class that exceeded my expectations. The website is not only aesthetically pleasing but also user-friendly. Their attention to detail and dedication to ensuring the website met my requirements was impressive. I highly recommend him to anyone looking for a professional and reliable web developer."
   },
   {
     avatar: AVTR3,
-    name: "Pelumi Ogunsakin",
-    review: "While I do not yet have any formal testimonials from clients, I have received numerous commendations from individuals impressed by the quality of my work as a frontend developer in less than a year. I look forward to adding official testimonials to my portfolio as I continue to hone my craft and deliver exceptional results."
+    name: "Oluwole Godwin",
+    review: "Working with Israel has been an exceptional experience. He developed a website for my online economics tutorial class that exceeded my expectations. The website is not only aesthetically pleasing but also user-friendly. Their attention to detail and dedication to ensuring the website met my requirements was impressive. I highly recommend him to anyone looking for a professional and reliable web developer."
   },
   {
     avatar: AVTR4,
-    name: "Misturah Ololade",
-    review: "While I do not yet have any formal testimonials from clients, I have received numerous commendations from individuals impressed by the quality of my work as a frontend developer in less than a year. I look forward to adding official testimonials to my portfolio as I continue to hone my craft and deliver exceptional results."
+    name: "Oluwole Godwin",
+    review: "Working with Israel has been an exceptional experience. He developed a website for my online economics tutorial class that exceeded my expectations. The website is not only aesthetically pleasing but also user-friendly. Their attention to detail and dedication to ensuring the website met my requirements was impressive. I highly recommend him to anyone looking for a professional and reliable web developer."
   }
 ]
 

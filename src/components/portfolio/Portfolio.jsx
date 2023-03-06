@@ -8,6 +8,7 @@ import IMG4 from "../../assets/portfolio4.jpg"
 import IMG5 from "../../assets/portfolio5.png"
 import IMG6 from "../../assets/portfolio6.png"
 import IMG7 from "../../assets/portfolio7.png"
+import IMG8 from "../../assets/portfolio8.png"
 import { staggerContainer } from "../data.js"
 
 const data = [
@@ -25,13 +26,13 @@ const data = [
     Github: "https://github.com/IsraelBosun/omicron-gadgets",
     demo: "https://israelbosun.github.io/omicron-gadgets/"
   },
-  {
-    id: 3,
-    imaage: IMG3,
-    title: "Portfolio Website for myself",
-    Github: "https://github.com/IsraelBosun/testing",
-    demo: "https://testing-eight-lyart.vercel.app/"
-  },
+  // {
+  //   id: 3,
+  //   imaage: IMG3,
+  //   title: "Portfolio Website for myself",
+  //   Github: "https://github.com/IsraelBosun/testing",
+  //   demo: "https://testing-eight-lyart.vercel.app/"
+  // },
   {
     id: 4,
     imaage: IMG4,
@@ -59,6 +60,13 @@ const data = [
     title: "This is a website for a gym, do check it out",
     Github: "https://github.com/IsraelBosun/gyming",
     demo: "https://gyming.vercel.app/"
+  },
+  {
+    id: 8,
+    imaage: IMG8,
+    title: "I made an ecommerce website using Nextjs and sanity as the headless CMS for the backend, then I integrated it with Paystack to accept payments",
+    Github: "https://github.com/IsraelBosun/ecommerce-stripe",
+    demo: "https://ecommerce-stripe-git-main-israelbosun.vercel.app/"
   }
 ]
 
