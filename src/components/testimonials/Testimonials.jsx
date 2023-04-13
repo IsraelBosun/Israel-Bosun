@@ -28,7 +28,7 @@ const data = [
   {
     avatar: AVTR2,
     name: "Oluwole Godwin",
-    review: "WWorking with Israel has been an exceptional experience. He developed a website for my online economics tutorial class that exceeded my expectations. The website is not only aesthetically pleasing but also user-friendly. Their attention to detail and dedication to ensuring the website met my requirements was impressive. I highly recommend him to anyone looking for a professional and reliable web developer."
+    review: "Working with Israel has been an exceptional experience. He developed a website for my online economics tutorial class that exceeded my expectations. The website is not only aesthetically pleasing but also user-friendly. Their attention to detail and dedication to ensuring the website met my requirements was impressive. I highly recommend him to anyone looking for a professional and reliable web developer."
   },
   {
     avatar: AVTR3,

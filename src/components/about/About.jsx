@@ -24,7 +24,7 @@ const About = () => {
           <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>7 Months Working Experience</small>
+              <small>9 Months Working Experience</small>
           </article>
 
           <article className='about__card'>
@@ -36,12 +36,12 @@ const About = () => {
           <article className='about__card'>
               <AiFillFolderOpen className='about__icon'/>
               <h5>Projects</h5>
-              <small>5+ Completed Projects</small>
+              <small>8+ Completed Projects</small>
           </article>
         </div>
 
         <p>
-        I am a web developer with 7 months of experience creating functional and responsive websites with a focus on aesthetics and user experience. Check out my portfolio for examples of my work. I am committed to delivering high-quality results to my clients.
+        I am a web developer with 9 months of experience creating functional and responsive websites with a focus on aesthetics and user experience. Check out my portfolio for examples of my work. I am committed to delivering high-quality results to my clients.
         </p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>

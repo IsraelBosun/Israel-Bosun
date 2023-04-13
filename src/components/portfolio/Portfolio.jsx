@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import "./portfolio.css"
 import IMGj from "../../assets/portfolio1.jpg"
 import IMG2 from "../../assets/portfolio2.jpg"
-import IMG3 from "../../assets/portfolio3.jpg"
+import IMG3 from "../../assets/portfolio3.png"
 import IMG4 from "../../assets/portfolio4.jpg"
 import IMG5 from "../../assets/portfolio5.png"
 import IMG6 from "../../assets/portfolio6.png"
@@ -26,13 +26,13 @@ const data = [
     Github: "https://github.com/IsraelBosun/omicron-gadgets",
     demo: "https://israelbosun.github.io/omicron-gadgets/"
   },
-  // {
-  //   id: 3,
-  //   imaage: IMG3,
-  //   title: "Portfolio Website for myself",
-  //   Github: "https://github.com/IsraelBosun/testing",
-  //   demo: "https://testing-eight-lyart.vercel.app/"
-  // },
+  {
+    id: 3,
+    imaage: IMG3,
+    title: "A real estate app showing details of all apartment listings",
+    Github: "https://github.com/IsraelBosun/real-estate-app",
+    demo: "https://real-estate-app-alpha-two.vercel.app/"
+  },
   {
     id: 4,
     imaage: IMG4,
