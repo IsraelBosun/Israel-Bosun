@@ -4,6 +4,13 @@
     gap: 15%;
 }
 
+.stack {
+    margin: auto;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
 .about__me{
     width: 200px;
     aspect-ratio: 1/1;

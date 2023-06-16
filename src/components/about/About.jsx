@@ -1,9 +1,9 @@
 import React from 'react'
 import "./about.css"
 import ME from "../../assets/me-about.jpg"
-import {FaAward} from "react-icons/fa"
-import {FiUsers} from "react-icons/fi"
-import {AiFillFolderOpen} from "react-icons/ai"
+import {FaReact} from "react-icons/fa"
+import {TbBrandNextjs} from "react-icons/tb"
+import {SiMongodb} from "react-icons/si"
 
 const About = () => {
   return (
@@ -18,31 +18,30 @@ const About = () => {
             <img src={ME} alt="about-image" className = "image2" />
           </div>
         </div>
-        
+        <div className='stack'>Tech Stack</div>
       <div className="about__content">
         <div className="about__cards">
           <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>9 Months Working Experience</small>
+              <FaReact className='about__icon'/>
+              <h5>ReactJs</h5>
+              {/* <small>9 Months Working Experience</small> */}
           </article>
 
           <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Client</h5>
-              <small>3 Clients</small>
+              <TbBrandNextjs className='about__icon'/>
+              <h5>NextJs</h5>
+              {/* <small>3 Clients</small> */}
           </article>
 
           <article className='about__card'>
-              <AiFillFolderOpen className='about__icon'/>
-              <h5>Projects</h5>
-              <small>9+ Completed Projects</small>
+              <SiMongodb className='about__icon'/>
+              <h5>MongoDB</h5>
+              {/* <small>9+ Completed Projects</small> */}
           </article>
         </div>
 
         <p>
-        I am a web developer with 9 months of experience creating functional and responsive websites with a focus on aesthetics and user experience. Check out my portfolio for examples of my work. I am committed to delivering high-quality results to my clients.
-        </p>
+       I am an experienced React developer. Crafting elegant websites with fluid design and seamless interactions. Let's join forces and forge a remarkable online presence together.       </p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
       </div>
