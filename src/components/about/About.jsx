@@ -18,8 +18,8 @@ const About = () => {
             <img src={ME} alt="about-image" className = "image2" />
           </div>
         </div>
-        <div className='stack'>Tech Stack</div>
       <div className="about__content">
+        <div className='stack'>Tech Stack</div>
         <div className="about__cards">
           <article className='about__card'>
               <FaReact className='about__icon'/>
