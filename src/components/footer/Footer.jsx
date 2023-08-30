@@ -27,10 +27,12 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Made With React <FaReact className ="reaction"/> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By IsraelBosun</small>
+        <small className='text-sm'> <span className='text-white text-lg'>&copy; </span> Made With React  By IsraelBosun</small>
       </div>
     </div>
   )
 }
 
 export default Footer
+
+{/* <FaReact className ="reaction absolute"/> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}

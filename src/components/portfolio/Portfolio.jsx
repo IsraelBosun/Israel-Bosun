@@ -1,85 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { motion } from "framer-motion"
 import "./portfolio.css"
-import IMGj from "../../assets/portfolio1.jpg"
-import IMG2 from "../../assets/portfolio2.jpg"
-import IMG3 from "../../assets/portfolio3.png"
-import IMG4 from "../../assets/portfolio4.jpg"
-import IMG5 from "../../assets/portfolio5.png"
-import IMG6 from "../../assets/portfolio6.png"
-import IMG7 from "../../assets/portfolio7.png"
-import IMG8 from "../../assets/portfolio8.png"
-import promptVault from "../../assets/prompt.png"
-import { staggerContainer } from "../data.js"
 
-const data = [
-  {
-    id: 1,
-    imaage: IMGj,
-    title: "Metaverse Of Madness is an amazing made with nextjs and tailwindcss, the user interface is out of this world.",
-    Github: "https://github.com/IsraelBosun/meta",
-    demo: "https://meta-xtqq.vercel.app/"
-  },
-  {
-    id: 2,
-    imaage: promptVault,
-    title: "PrompVault is a secure, centralized platform for storing and sharing AI prompts, promoting collaboration among users. I made it using Nextjs, MongoDB and tailwind",
-    Github: "https://github.com/IsraelBosun/repo-for-prompts",
-    demo: "https://promptvault.vercel.app/"
-  },
-  // {
-  //   id: 3,
-  //   imaage: IMG2,
-  //   title: "Omicron Gadgets E-commerce website",
-  //   Github: "https://github.com/IsraelBosun/omicron-gadgets",
-  //   demo: "https://israelbosun.github.io/omicron-gadgets/"
-  // },
-  {
-    id: 4,
-    imaage: IMG3,
-    title: "A real estate app showing details of all apartment listings",
-    Github: "https://github.com/IsraelBosun/real-estate-app",
-    demo: "https://real-estate-app-alpha-two.vercel.app/"
-  },
-  {
-    id: 5,
-    imaage: IMG4,
-    title: "GPT-3 OpenAI Landing Page",
-    Github: "https://github.com/IsraelBosun/gpt-3-israel",
-    demo: "https://gpt-3-israel.vercel.app/"
-  },
-  {
-    id: 6,
-    imaage: IMG5,
-    title: "Made an online Economics class website for a client",
-    Github: "https://github.com/IsraelBosun/school-website",
-    demo: "https://school-website-sigma.vercel.app/"
-  },
-  {
-    id: 7,
-    imaage: IMG6,
-    title: "I made a chatGPT clone using OpenAI's API, I called it AfroGPT (this is no longer active as I have used up my free OpenAI credit )",
-    Github: "https://github.com/IsraelBosun/Afro-gpt",
-    demo: "https://afro-gpt.vercel.app/"
-  },
-  {
-    id: 8,
-    imaage: IMG7,
-    title: "This is a website for a gym, do check it out",
-    Github: "https://github.com/IsraelBosun/gyming",
-    demo: "https://gyming.vercel.app/"
-  },
-  {
-    id: 9,
-    imaage: IMG8,
-    title: "I made an ecommerce website using Nextjs and sanity as headless CMS, I integrated it with Paystack to accept payments",
-    Github: "https://github.com/IsraelBosun/ecommerce-stripe",
-    demo: "https://ecommerce-stripe-git-main-israelbosun.vercel.app/"
-  },
-  
-]
+import { staggerContainer } from "../data.js"
+import { data } from '../../data/Data'
+import App from '../../App'
+
+
 
 const Portfolio = () => {
+
+  const [all, setAll] = useState(true);
+  const [web, setWeb] = useState(false);
+  const [app, setApp] = useState(false);
+
+  const webbing = () =>{
+    setWeb(true);
+    setApp(false);
+    setAll(false)
+  };
+
+  const apping = () =>{
+    setApp(true);
+    setWeb(false);
+    setAll(false)
+  }
+
+  const alling = () =>{
+    setApp(false);
+    setWeb(false);
+    setAll(true)
+  }
 
   return (
     <motion.div 
@@ -92,7 +43,62 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container">
+
+      <div className="container rat flex items-center justify-around   py-1 rounded-lg  ">
+        <p className={`text-xl bg-blue-600 px-5 py-3 rounded-md text-xs sm:text-lg hover:bg-white hover:text-blue-600 cursor-pointer transition`} onClick = {alling}>All</p>
+        <p className='text-xl bg-blue-600 px-5 py-3 rounded-md text-xs sm:text-lg hover:bg-white hover:text-blue-600 cursor-pointer transition' onClick = {webbing}>Web App</p>
+        <p className='text-xl bg-blue-600 px-5 py-3 rounded-md text-xs sm:text-lg hover:bg-white hover:text-blue-600 cursor-pointer transition' onClick = {apping}>Mobile App</p>
+      </div>
+
+      {
+        web &&
+      <div className="container portfolio__container transform translate-y-9 transition-transform duration-500 ease-in-out slide-down">
+      {
+        data.filter(cat => cat.holla == "web").map(({id, imaage, title, Github, demo}) => {
+          return (
+            <article key={id} className = "portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={imaage} alt={title} />
+          </div>
+          <h3>{title} </h3>
+          <div className="portfolio__item-cta">
+            <a href={Github} className='btn' target="_blank">Github</a>
+            <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
+          </div>
+        </article>
+          )
+        })
+      }
+      </div>
+      }
+      
+      {
+        app &&
+      <div className="container portfolio__container ">
+      {
+        data.filter(cat => cat.holla == "app").map(({id, imaage, title, Github, demo}) => {
+          return (
+            <article key={id} className = "portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={imaage} alt={title} />
+          </div>
+          <h3>{title} </h3>
+          <div className="portfolio__item-cta">
+            <a href={Github} className='btn' target="_blank">Github</a>
+            <a href={demo} className='btn btn-primary' target="_blank">Download Apk</a>
+          </div>
+            <a href={""} className='btn btn-primary ' target="_blank">Can't Download? Watch Demo</a>
+        </article>
+          )
+        })
+      }
+      </div>
+      }
+
+
+    {
+        all &&
+      <div className="container portfolio__container ">
       {
         data.map(({id, imaage, title, Github, demo}) => {
           return (
@@ -110,6 +116,7 @@ const Portfolio = () => {
         })
       }
       </div>
+      }
     </motion.div>
   )
 }
